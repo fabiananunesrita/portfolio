@@ -1,0 +1,164 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black !important;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color:crimson;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover {
+    background-color:darkred;
+}
+
+/* CABEÇALHO */
+header { 
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #7d7d7d;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+
+}
+
+/* TOPO */
+
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site.flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+}
+
+.topo-do-site h1 span {
+    color:crimson;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: white;
+    margin: 40px 0;
+}
+
+.img-topo-site {
+    margin: 40px; 
+}
+
+.btn-social {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-social button {
+    border: none;
+    background-color: crimson;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; 
+}
+
+.btn-social button:hover {
+    background-color: darkred;
+    cursor: pointer; 
+}
+
+.btn-social button i {
+    color: white; 
+}
+
+.meus-projetos {
+    font-family: "Poppins", sans-serif; 
+    color: white;
+}
+
+.meus-projetos span {
+    font-family: "Poppins", sans-serif; 
+    color: crimson;
+}
+
+footer {
+    font-family: "Poppins", sans-serif;
+    text-align: right;
+    background-color: crimson;
+    padding: 60px;
+    color: black;
+  }
+
+  /* PORTFOLIO */
+
+  .projetos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.btn-projeto {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: crimson;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 6.5cm;
+    text-align: center; 
+    color: white; 
+    text-decoration: none;
+}
+
+.btn-projeto:hover {
+    background-color: darkred;
+}
